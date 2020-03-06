@@ -1,0 +1,113 @@
+body {
+	background-image: url("../images/room.jpg"); 
+	background-repeat: no-repeat;
+	background-color: red;
+
+}
+
+h1 {
+	color: pink;
+	font-weight: 800;
+	text-align: center;
+	background-color: grey;
+	line-height: 120px;
+	font-size: 90px;
+	font-style: italic;
+	border-style: groove;
+	border-color: silver;
+	border-collapse: colapse;
+}
+
+span {
+	color : lavander;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.left {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+    margin: 50px;
+	border-color:white;
+	border-radius: 8px;
+}
+
+.mybutton {
+	border-radius: 8px;
+	border-color: silver;
+	border-width: 3px;
+	font-size: 20px;
+	color:purple;
+	background-color: white;
+}
+img {
+	border-style: groove;
+	border-color:pink;
+	border-radius: 8px;
+}
+.nextbutton {
+	background-color: silver;
+	border-radius: 12px;
+	border-style: solid;
+	font-size: 20px;
+	border-color: silver;
+	padding:10px;
+	color: purple;
+	bottom:0;
+	margin-top: 10px;
+	
+
+
+}
+audio {
+	margin: 20px 0px;
+	background-color: pink;
+}
+.bottom {
+	margin:30px;
+}
+.right {
+	background-color: #e31441;
+	height : 350px;
+	margin-bottom: -50%;
+	text-align: center;
+	color: beige;
+	display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border : 5px groove pink;
+    border-radius: 12px;
+    font-size: 18px;
+}
+#submitbutton {
+	background-color: pink;
+	margin :35px;
+	height: 30px;
+	border-radius: 12px;
+	border:groove;
+	font-size: 18px;
+	color:purple;
+
+}
+
+.a {
+	margin-top: 5px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+.b {	
+	margin-top: 0px;
+	font-weight: 900;
+}
+#message {
+	height : 20px;
+	font-weight: 900px;
+ 	font-size: 150%
+
+}
+
